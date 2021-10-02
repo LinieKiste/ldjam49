@@ -5,7 +5,7 @@ using UnityEngine;
 public class Backgroundmove : MonoBehaviour
 {
 
-    public BoxCollider2D collider;
+    public new BoxCollider2D collider;
     public Rigidbody2D rb;
 
     private float width;
